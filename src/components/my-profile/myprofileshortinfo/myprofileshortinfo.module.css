@@ -1,0 +1,37 @@
+.infobox{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    margin:70px 10px 15px 10px;
+}
+.left{
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.image{
+    width:5rem;
+    border-radius: 5rem;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+    justify-content: center;
+    margin-left:15px;
+}
+.text1{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.right{
+    width:1rem;
+    height:1rem;
+    border:1px solid #efefef;
+    border-radius: 3px;
+    padding:3px;
+}
+.text1 span{
+    color: gray;
+}

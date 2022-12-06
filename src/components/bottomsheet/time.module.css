@@ -1,0 +1,42 @@
+.content{
+    display:flex;
+    flex-direction: column;
+    padding:0.5rem 1.5rem;
+}
+.title{
+    font-size:18px;
+    font-weight: bold;
+}
+.time{
+    margin: 10px 0px;
+}
+.reloadIcon{
+    margin-right: 3px;
+}
+.bts{
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+    height:3rem;
+}
+.btnLeft{
+    width: 35%;
+    background:none;
+    border:none;
+    background: #f8ede2;
+    color:#ed7733;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}
+.btnRight{
+    width:65%;
+    background:#ed7733;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}

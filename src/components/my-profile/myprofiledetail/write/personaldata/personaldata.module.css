@@ -1,0 +1,20 @@
+.inputBox{
+    margin:15px 0;
+}
+.title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.title span{
+    font-size:0.9rem;
+    color: gray;
+    font-weight: normal;
+}
+.subTitle{
+    margin:6px 0;
+    font-size: 0.9rem;
+}
+.errormsg{
+    color:red;
+    font-size: 0.8rem;
+}

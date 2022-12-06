@@ -1,0 +1,25 @@
+.card{
+    list-style: none;
+    padding: 5px 5px;
+}
+.title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin:10px 0;
+    text-align: left;
+}
+.subTitle{
+    font-size: 1rem;
+    margin:10px 0;
+    color:gray;
+    text-align: left;
+}
+.btn{
+    width:100%;
+    background:#efefef;
+    border:none;
+    border-radius: 5px;
+    margin:10px 0;
+    font-size:0.8rem;
+    font-weight: bold;
+}

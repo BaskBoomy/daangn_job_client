@@ -1,0 +1,69 @@
+.content{
+    display:flex;
+    flex-direction: column;
+    padding:0.5rem 1.5rem;
+}
+.title{
+    font-size:18px;
+    font-weight: bold;
+}
+.dateWrapper{
+    text-align:center;
+    padding:25px 15px;
+}
+.datesList{
+    display:flex;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.datesList li{
+    float: left;
+}
+.bts{
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+    height:3rem;
+}
+.reloadIcon{
+    margin-right: 3px;
+}
+.btnLeft{
+    width: 35%;
+    background:none;
+    border:none;
+    background: #f8ede2;
+    color:#ed7733;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}
+.btnRight{
+    width:65%;
+    background:#ed7733;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}
+.dayBox{
+    display:none;
+}
+.clicked{
+    border: none;
+    border-radius: 100%;
+    padding:6px 9px;
+    background-color:rgb(77, 77, 77);
+    color:white;
+}
+.unClicked{
+    border: 2px solid #efefef;
+    border-radius: 100%;
+    padding:6px 9px;
+}

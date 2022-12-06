@@ -1,0 +1,60 @@
+.container{
+    background-color:white;
+    margin:70px 10px 0 10px;
+}
+.topbox{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+}
+.left{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    margin-right:12px;
+}
+.right{
+    width:70%;
+    text-align:left;
+}
+.right div{
+    margin-bottom:5px;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.title span{
+    margin-left: 5px;
+    border-radius: 5px;
+    border:none;
+    background:rgb(212, 238, 255);
+    color: rgb(54, 151, 255);
+    font-size: 0.7rem;
+    padding:2px;
+}
+.textGray{
+    font-size: 1rem;
+    color: gray;
+}
+.smallicon{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.colorOrange{
+    font-size: 1.02rem;
+    color:#ed7733;
+    font-weight: bold;
+}
+
+.btnGray{
+    width: 100%;
+    border:none;
+    background:#efefef;
+    padding:10px 0;
+    font-weight: bold;
+    margin: 20px 0;
+    border-radius: 5px;
+}

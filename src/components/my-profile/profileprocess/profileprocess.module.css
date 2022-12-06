@@ -1,0 +1,12 @@
+.container{
+    padding:10px 10px;
+    background-color: #f8f8f8;
+}
+.top p{
+    font-weight: bold;
+}
+
+.middle{
+    overflow-x:auto;
+    white-space: nowrap;
+}

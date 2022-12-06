@@ -1,0 +1,15 @@
+.inputBox{
+    margin:15px 0;
+}
+.title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btnGray{
+    background:#efefef;
+    border-radius: 5px;
+    width: 100%;
+    margin:10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+}

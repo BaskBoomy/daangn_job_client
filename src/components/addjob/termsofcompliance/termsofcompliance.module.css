@@ -1,0 +1,55 @@
+.container{
+    margin: 20px 0;
+}
+.checkBox{
+    display:flex;
+    justify-content: space-between;
+}
+.checkBoxHide{
+    display:none;
+}
+.checkBoxLabel{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.checkBoxDefault{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:white;
+    border:1px solid gray;
+    border-radius: 20px;
+    margin-right:10px;
+    box-sizing:border-box;
+}
+.checkBoxOrange{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:#ed7733;
+    border-radius: 20px;
+    margin-right:10px;
+    background-image: url('../../../assets/check.svg');
+    background-repeat: no-repeat;
+    box-sizing:border-box;
+    background-position: center;
+}
+.arrow{
+    transform: rotate(180deg);
+    transition: all ease 1s;
+}
+.arrowDown{
+    transform: rotate(0deg);
+    transition: all ease 1s;
+}
+
+.listBox ul{
+    list-style: none;
+}
+.listBox ul li {
+    margin-top : 5px;
+}
+.listBox ul li a:link {
+    color:gray;
+}

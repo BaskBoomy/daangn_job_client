@@ -1,0 +1,41 @@
+.container{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    position:absolute;
+    width:100%;
+}
+.logo{
+    width:250px;
+    height:250px;
+}
+.top{
+    height:95%;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.bottom{
+    height:15%;
+    margin:0px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin:10px 0;
+}
+.subTitle{
+    font-size: 0.9rem;
+}
+.textGray{
+    color:gray;
+    font-size:0.8rem;
+}
+.textGray span{
+    color: #ed7733;
+    cursor: pointer;
+}

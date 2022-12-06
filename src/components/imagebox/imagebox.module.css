@@ -1,0 +1,30 @@
+
+.container{
+    width:40%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    margin:0 auto;
+}
+.imageBox{
+    width:80%;
+    height:115px;
+    position: relative;
+    margin-right:10px;
+}
+.profileImage{
+    width:100%;
+    height:100%;
+    border-radius: 100%;
+}
+.floatIcon{
+    position:absolute;
+    width:0.8rem;
+    bottom:5px;
+    right:-0.3rem;
+    border:1px solid #838383;
+    background-color: white;
+    padding:6px;
+    border-radius: 1rem;
+}

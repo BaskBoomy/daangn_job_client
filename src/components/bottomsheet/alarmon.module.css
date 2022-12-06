@@ -1,0 +1,37 @@
+.content{
+    padding:20px 20px;
+    text-align:left;
+}
+.title{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.subTitle{
+    color: #616161;
+    margin:10px 0 20px 0;
+}
+.bts{
+    display:flex;
+    flex-direction: row;
+}
+.btnLeft{
+    width: 50%;
+    background:none;
+    border:none;
+    background: #efefef;
+    color:black;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}
+.btnRight{
+    width:50%;
+    background:#ed7733;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}

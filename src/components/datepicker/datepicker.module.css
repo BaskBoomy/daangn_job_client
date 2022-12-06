@@ -1,0 +1,24 @@
+.title{
+    font-size: 1.2rem;
+}
+.inputBox{
+    text-align: center;
+    margin:20px 0;
+}
+.inputNumber{
+    margin:10px;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0;
+    text-align:center;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.btn{
+    width:3rem;
+    color:#ed7733;
+}

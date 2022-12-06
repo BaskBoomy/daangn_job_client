@@ -1,0 +1,29 @@
+.header{
+    position:fixed;
+    top:0;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10000;
+}
+
+.title{
+    font-size:1rem;
+    font-weight: bold;
+    float:right;
+}
+.iconbtn{
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+}
+.rightBtn{
+    text-decoration: none;
+    color:black;
+}

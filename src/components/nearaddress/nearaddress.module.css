@@ -1,0 +1,10 @@
+.container{
+    margin: 70px 10px;
+}
+.box{
+    margin: 30px 0;
+}
+.title{
+    font-weight:bold;
+    font-size: 1.1rem;
+}

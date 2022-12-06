@@ -1,0 +1,35 @@
+.container{
+    text-align:center;
+}
+button{
+    width:95%;
+    border: none;
+    padding:8px 0;
+    background-color:white;
+}
+.btn{
+    border-radius: 5px;
+    background-color: #f8ede2;
+    color: #ed7733;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+nav div{
+    width: 100%;
+    text-align: center;
+}
+nav button{
+    color: #9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+}
+.btnActive{
+    color:black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}

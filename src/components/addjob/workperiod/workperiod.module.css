@@ -1,0 +1,107 @@
+.workperiodBox{
+    margin:30px 0;
+}
+.title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn{
+    display:inline-block;
+    border:1px solid #efefef;
+    border-radius: 2rem;
+    display:inline-block;
+    padding:10px;
+    margin:5px;
+}
+.isActive{
+    border:1px solid #efefef;
+    border-radius: 2rem;
+    display:inline-block;
+    padding:10px;
+    margin:5px;
+    background-color: rgb(102, 101, 101);
+    color:white;
+}
+.calender{
+    text-align:center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin:15px 0 10px;
+}
+table{
+    border-collapse: collapse;
+    background: white;
+    width:100%;
+    margin:10px 0;
+    font-weight: normal;
+}
+thead{
+    font-size: 0.9rem;
+    color:gray;
+    line-height:35px;
+}
+tbody tr{
+    font-size:1.1rem;
+    line-height:45px;
+}
+.textBlack{
+    color:black;
+    border-radius: 0;
+    background-color: #fff;
+}
+.textGray{
+    color:#bbbbbb;
+    border-radius: 0;
+    background-color: #fff;
+}
+.textOrange{
+    color:#ed7733;
+    border-radius: 0;
+    background-color: #fff;
+}
+td{
+    width:14%;
+}
+.isSelected{
+    border-radius: 3rem;
+    background-color: rgb(102, 101, 101);
+    color:white;
+}
+td span{
+    display:inline-block;
+    width:45px;
+}
+
+
+
+
+.dayOfWeekBox{
+    list-style: none;
+    margin: 15px 20px;
+    padding:0;
+    display:flex;
+    justify-content:space-around;
+}
+
+.day{
+    display: inline;
+    border-radius: 20px;
+    padding:5px;
+    width:20px;
+    height:20px;
+    text-align: center;
+    border:1px solid #efefef;
+    background-color:white;
+    color:black;
+}
+
+.dayIsActive{
+    display: inline;
+    border-radius: 20px;
+    padding:5px;
+    width:20px;
+    height:20px;
+    text-align: center;
+    background-color:rgb(102, 101, 101);
+    color:white;
+}

@@ -1,0 +1,49 @@
+.container{
+    margin:10px;
+}
+.title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 15px 0 5px 15px;
+}
+.reloadIcon{
+    margin-right: 3px;
+}
+.bts{
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+    height:3rem;
+}
+.btnLeft{
+    width: 35%;
+    background:none;
+    border:none;
+    background: #f8ede2;
+    color:#ed7733;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}
+.btnRight{
+    width:65%;
+    background:#ed7733;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin:2.5px;
+    font-weight: bold;
+    font-size:1.04rem;
+}
+.list{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display:inline-block;
+}
+
+.list li {
+    margin: 15px 0;
+    font-size: 1.05rem;
+}

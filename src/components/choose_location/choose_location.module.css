@@ -1,0 +1,28 @@
+.container{
+    padding: 10px;
+}
+.searchBox{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding:10px;
+    display:flex;
+}
+.searchInputBox{
+    border:none;
+    width:90%;
+    margin-left: 5px;
+}
+.searchDefault{
+    color:gray;
+    margin-top: 50px;
+    text-align: center;
+}
+.textOrange{
+    color:#ed7733;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.resultBox{
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding:15px 5px;
+    font-weight: 400;
+}

@@ -1,0 +1,58 @@
+
+const timespan = [
+    {id:1,time:'00:00',selected:false},
+    {id:2,time:'00:30',selected:false},
+    {id:3,time:'01:00',selected:false},
+    {id:4,time:'01:30',selected:false},
+    {id:5,time:'02:00',selected:false},
+    {id:6,time:'02:30',selected:false},
+    {id:7,time:'03:00',selected:false},
+    {id:8,time:'03:30',selected:false},
+    {id:9,time:'04:00',selected:false},
+    {id:10,time:'04:30',selected:false},
+    {id:11,time:'05:00',selected:false},
+    {id:12,time:'05:30',selected:false},
+    {id:13,time:'06:00',selected:false},
+    {id:14,time:'06:30',selected:false},
+    {id:15,time:'07:00',selected:false},
+    {id:16,time:'07:30',selected:false},
+    {id:17,time:'08:00',selected:false},
+    {id:18,time:'08:30',selected:false},
+    {id:19,time:'09:00',selected:false},
+    {id:20,time:'09:30',selected:false},
+    {id:21,time:'10:00',selected:false},
+    {id:22,time:'10:30',selected:false},
+    {id:23,time:'11:00',selected:false},
+    {id:24,time:'11:30',selected:false},
+    {id:25,time:'12:00',selected:false},
+    {id:26,time:'12:30',selected:false},
+    {id:27,time:'13:00',selected:false},
+    {id:28,time:'13:30',selected:false},
+    {id:29,time:'14:00',selected:false},
+    {id:30,time:'14:30',selected:false},
+    {id:31,time:'15:00',selected:false},
+    {id:32,time:'15:30',selected:false},
+    {id:33,time:'16:00',selected:false},
+    {id:34,time:'16:30',selected:false},
+    {id:35,time:'17:00',selected:false},
+    {id:36,time:'17:30',selected:false},
+    {id:37,time:'18:00',selected:false},
+    {id:38,time:'18:30',selected:false},
+    {id:39,time:'19:00',selected:false},
+    {id:40,time:'19:30',selected:false},
+    {id:41,time:'20:00',selected:false},
+    {id:42,time:'20:30',selected:false},
+    {id:43,time:'21:00',selected:false},
+    {id:44,time:'21:30',selected:false},
+    {id:45,time:'22:00',selected:false},
+    {id:46,time:'22:30',selected:false},
+    {id:47,time:'23:00',selected:false},
+    {id:48,time:'23:30',selected:false},
+]
+class TimeService{
+    getTimeSpan(){
+        return timespan;
+    }
+}
+
+export default TimeService;

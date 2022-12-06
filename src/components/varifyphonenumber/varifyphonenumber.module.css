@@ -1,0 +1,39 @@
+.container{
+    margin: 70px 10px 0 10px;
+}
+.title{
+    font-size : 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.subTitle{
+    font-size:1rem;
+    margin: 10px 0;
+}
+.input{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px 0;
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+}
+.grayBtn{
+    width:100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color : gray;
+    color : white;
+    padding:10px 0;
+    margin: 10px 0;
+}
+.smallText{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+.smallText a{
+    color:black;
+    font-weight:bold;
+}

@@ -1,0 +1,46 @@
+.container{
+    margin: 70px 0 50px;
+    padding:0 10px;
+}
+.bottomFix{
+    width:100%;
+    position:fixed;
+    bottom:0;
+    background:#efefef;
+    text-align:center;
+}
+.submitBtn{
+    background:#ed7733;
+    color:white;
+    font-size:1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    margin:3px 0;
+}
+
+.loadingBox{
+    margin-top: 300px;
+    text-align: center;
+}
+.loading{
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    border: 10px solid #efefef;
+    border-top: 10px solid #ed7733;
+    animation:spin 2s linear infinite;
+    margin:0 auto;
+}
+.loadingText{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #ed7733;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);}
+}
