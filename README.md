@@ -4,7 +4,8 @@
 
 NodeJS와 ReactJS를 활용한 당근 알바 서비스를 구현한 프로젝트입니다.
 
-- server code는 TypeScript로도 구현하였으므로 branch 확인바랍니다.
+- server code는 TypeScript로도 구현하였으므로 아래 링크 확인바랍니다.
+- [당근 알바 typescript server code](https://github.com/BaskBoomy/danngn_job_server)
 - [당근 알바 프로젝트 상세 설명 링크](https://www.notion.so/fa1e6bb76cdc45f9895dcb035aaa212c)
 - [API 설계](https://www.notion.so/API-74278a1774d44ff0bbb710b4f28de207)
 
