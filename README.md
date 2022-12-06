@@ -11,24 +11,28 @@ NodeJS와 ReactJS를 활용한 당근 알바 서비스를 구현한 프로젝트
 
 ## 개발 환경 설정
 
-client와 server모두 npm install
+module 다운로드
 
 ```sh
-npm install
+npm run moduels
 ```
 
-server 경로에서 프로젝트 실행하는 방법
+project(client & server) 실행
 
 ```sh
 npm run dev
 ```
 
+server 실행
+
+```sh
+npm run server
+```
 
 
 ## 사용 예제
 
 1. 동네 설정, 휴대폰 인증, 그리고 프로필을 등록합니다.
-
 2. 사용자 정보를 추가로 등록할 수 있습니다.
 3. 알바 목록 리스트를 확인하여 상세 정보를 확인할 수 있습니다.
 4. 알바를 등록할 수 있습니다.
